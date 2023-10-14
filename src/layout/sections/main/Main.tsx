@@ -34,11 +34,11 @@ const Photo = styled.img`
 
 const MainTitle = styled.h1`
 
-    
+
 `
 
 const Name = styled.h2`
 
 
-    
+
 `
