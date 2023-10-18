@@ -34,12 +34,17 @@ export const GlobalStyle = createGlobalStyle`
     border: none;
   }
   
-  // Для нечетных фонов
+  // Для всех секций
+  section {
+    padding: 100px 0;
+  }
+  
+  // Для нечетных секций
   section:nth-of-type(odd) {
     background-color: ${Theme.colors.primaryBg};
   }
   
-  // Для четных фонов
+  // Для четных секций
   section:nth-of-type(even) {
     background-color: ${Theme.colors.secondaryBg};
   }

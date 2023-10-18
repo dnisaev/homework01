@@ -27,7 +27,6 @@ export const Main = () => {
 const StyledMain = styled.section`
   display: flex;
   min-height: 100vh;
-  background-color: lightcyan;
 `
 
 const PhotoWrapper = styled.div`
