@@ -5,7 +5,10 @@ export const Theme = {
         secondaryBg: "#252527",
         accent: "#7572D5",
 
-        font: "#FFF"
+        font: "#FFF",
+
+        border: "#4A4A4A",
+        placeholder: "#495857"
     },
 
 
