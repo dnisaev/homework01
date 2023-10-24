@@ -1,4 +1,4 @@
-export const Theme = {
+export const PortfolioTheme = {
 
     colors: {
         primaryBg: "#1F1F20",
@@ -11,5 +11,8 @@ export const Theme = {
         placeholder: "#495857"
     },
 
-
+    media: {
+        tablet: "screen and (max-width: 768px)",
+        mobile: "screen and (max-width: 576px)"
+    }
 }

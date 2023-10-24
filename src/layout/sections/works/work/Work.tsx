@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
 import {Link} from "../../../../components/Link";
-import {Theme} from "../../../../styles/Theme";
+import {PortfolioTheme} from "../../../../styles/portfolioTheme";
 import {Button} from "../../../../components/Button";
 
 type WorkPropsType = {
@@ -28,7 +28,7 @@ export const Work = (props: WorkPropsType) => {
 };
 
 const StyledWork = styled.div`
-  background-color: ${Theme.colors.secondaryBg};
+  background-color: ${PortfolioTheme.colors.secondaryBg};
   max-width: 540px;
   width: 100%;
 

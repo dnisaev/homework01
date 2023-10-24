@@ -2,7 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 import {Icon} from "../../components/icon/Icon";
 import {FlexWrapper} from "../../components/FlexWrapper";
-import {Theme} from "../../styles/Theme";
+import {PortfolioTheme} from "../../styles/portfolioTheme";
 
 export const Footer = () => {
     return (
@@ -38,7 +38,7 @@ export const Footer = () => {
 };
 
 const StyledFooter = styled.footer`
-  background-color: ${Theme.colors.primaryBg};
+  background-color: ${PortfolioTheme.colors.primaryBg};
   padding: 40px 0;
 `
 
@@ -68,12 +68,12 @@ const SocialLink = styled.a`
   justify-content: center;
   align-items: center;
   
-  color: ${Theme.colors.accent};
+  color: ${PortfolioTheme.colors.accent};
   
   &:hover {
-    color: ${Theme.colors.primaryBg};
+    color: ${PortfolioTheme.colors.primaryBg};
     transform: translateY(-4px);
-    background-color: ${Theme.colors.accent};
+    background-color: ${PortfolioTheme.colors.accent};
   }
 `
 

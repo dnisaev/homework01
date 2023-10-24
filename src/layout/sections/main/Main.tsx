@@ -3,7 +3,7 @@ import photo from '../../../assets/images/photo.jpg';
 import styled from "styled-components";
 import {FlexWrapper} from "../../../components/FlexWrapper";
 import {Container} from "../../../components/Container";
-import {Theme} from "../../../styles/Theme";
+import {PortfolioTheme} from "../../../styles/portfolioTheme";
 
 export const Main = () => {
     return (
@@ -37,7 +37,7 @@ const PhotoWrapper = styled.div`
     content: "";
     width: 360px;
     height: 470px;
-    border: 5px solid ${Theme.colors.accent};
+    border: 5px solid ${PortfolioTheme.colors.accent};
     z-index: -1;
     
     position: absolute;
@@ -73,7 +73,7 @@ const Name = styled.h2`
       display: inline-block;
       width: 100%;
       height: 20px;
-      background-color: ${Theme.colors.accent};
+      background-color: ${PortfolioTheme.colors.accent};
       position: absolute;
       bottom: 0;
       z-index: -1;
