@@ -3,13 +3,13 @@ import photo from '../../../assets/images/photo.jpg';
 import styled from "styled-components";
 import {FlexWrapper} from "../../../components/FlexWrapper";
 import {Container} from "../../../components/Container";
-import {PortfolioTheme} from "../../../styles/portfolioTheme";
+import {portfolioTheme} from "../../../styles/PortfolioTheme";
 
 export const Main = () => {
     return (
         <StyledMain>
             <Container>
-                <FlexWrapper align={"center"} justify={"space-between"}>
+                <FlexWrapper align={"center"} justify={"space-between"} wrap={"wrap"}>
                     <div>
                         <Greeting>Hi There</Greeting>
                         <Name>I am <span>Dmitriy Isaev</span></Name>
@@ -37,7 +37,7 @@ const PhotoWrapper = styled.div`
     content: "";
     width: 360px;
     height: 470px;
-    border: 5px solid ${PortfolioTheme.colors.accent};
+    border: 5px solid ${portfolioTheme.colors.accent};
     z-index: -1;
     
     position: absolute;
@@ -50,6 +50,8 @@ const Photo = styled.img`
   width: 350px;
   height: 430px;
   object-fit: cover;
+  
+  @media ${portfolioTheme.media.tablet}
 `
 
 const MainTitle = styled.h1`
@@ -73,7 +75,7 @@ const Name = styled.h2`
       display: inline-block;
       width: 100%;
       height: 20px;
-      background-color: ${PortfolioTheme.colors.accent};
+      background-color: ${portfolioTheme.colors.accent};
       position: absolute;
       bottom: 0;
       z-index: -1;

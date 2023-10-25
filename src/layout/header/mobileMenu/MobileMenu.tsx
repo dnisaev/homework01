@@ -1,6 +1,6 @@
 import React from 'react';
 import styled, {css} from "styled-components";
-import {PortfolioTheme} from "../../../styles/portfolioTheme";
+import {portfolioTheme} from "../../../styles/PortfolioTheme";
 
 export const MobileMenu = (props: { menuItems: Array<string> }) => {
     return (
@@ -32,7 +32,7 @@ const StyledMobileMenu = styled.nav`
 
   display: none;
   
-  @media ${PortfolioTheme.media.tablet} {
+  @media ${portfolioTheme.media.tablet} {
     
     display: block;
   }
@@ -75,7 +75,7 @@ const BurgerButton = styled.button<{ isOpen: boolean }>`
     display: block;
     width: 36px;
     height: 2px;
-    background-color: ${PortfolioTheme.colors.font};
+    background-color: ${portfolioTheme.colors.font};
     position: absolute;
     left: 40px;
     bottom: 50px;
@@ -89,7 +89,7 @@ const BurgerButton = styled.button<{ isOpen: boolean }>`
       display: block;
       width: 36px;
       height: 2px;
-      background-color: ${PortfolioTheme.colors.font};
+      background-color: ${portfolioTheme.colors.font};
       position: absolute;
       transform: translateY(-10px);
 
@@ -104,7 +104,7 @@ const BurgerButton = styled.button<{ isOpen: boolean }>`
       display: block;
       width: 24px;
       height: 2px;
-      background-color: ${PortfolioTheme.colors.font};
+      background-color: ${portfolioTheme.colors.font};
       position: absolute;
       transform: translateY(10px);
 
@@ -133,7 +133,7 @@ const Mask = styled.span`
   height: 50%;
   overflow: hidden;
   //outline: 1px solid darkred;
-  color: ${PortfolioTheme.colors.accent};
+  color: ${portfolioTheme.colors.accent};
 
   & + & {
     top: 50%;
@@ -152,7 +152,7 @@ const ListItem = styled.li`
     content: "";
     display: inline-block;
     height: 1px;
-    background-color: ${PortfolioTheme.colors.accent};
+    background-color: ${portfolioTheme.colors.accent};
 
     position: absolute;
     top: 50%;
@@ -171,7 +171,7 @@ const ListItem = styled.li`
 
     ${Mask} {
       transform: skewX(12deg) translateX(3px);
-      color: ${PortfolioTheme.colors.font};
+      color: ${portfolioTheme.colors.font};
 
       & + ${Mask} {
         transform: skewX(12deg) translateX(-3px);

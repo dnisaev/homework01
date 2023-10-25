@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-import {PortfolioTheme} from "../../../styles/portfolioTheme";
+import {portfolioTheme} from "../../../styles/PortfolioTheme";
 
 export const HeaderMenu = (props: { menuItems: Array<string> }) => {
     return (
@@ -30,7 +30,7 @@ const StyledHeaderMenu = styled.nav`
     justify-content: center;
   }
   
-  @media ${PortfolioTheme.media.tablet} {
+  @media ${portfolioTheme.media.tablet} {
     display: none;
   }
 `
@@ -51,7 +51,7 @@ const Mask = styled.span`
   height: 50%;
   overflow: hidden;
   //outline: 1px solid darkred;
-  color: ${PortfolioTheme.colors.accent};
+  color: ${portfolioTheme.colors.accent};
   
   & + & {
     top: 50%;
@@ -69,7 +69,7 @@ const ListItem = styled.li`
     content: "";
     display: inline-block;
     height: 1px;
-    background-color: ${PortfolioTheme.colors.accent};
+    background-color: ${portfolioTheme.colors.accent};
     
     position: absolute;
     top: 50%;
@@ -88,7 +88,7 @@ const ListItem = styled.li`
     
     ${Mask} {
       transform: skewX(12deg) translateX(3px);
-      color: ${PortfolioTheme.colors.font};
+      color: ${portfolioTheme.colors.font};
       
       & + ${Mask} {
         transform: skewX(12deg) translateX(-3px);

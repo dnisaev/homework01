@@ -3,7 +3,7 @@ import styled from "styled-components";
 import {SectionTitle} from "../../../components/SectionTitle";
 import {Button} from "../../../components/Button";
 import {Container} from "../../../components/Container";
-import {PortfolioTheme} from "../../../styles/portfolioTheme";
+import {portfolioTheme} from "../../../styles/PortfolioTheme";
 
 export const Contact = () => {
     return (
@@ -40,8 +40,8 @@ const StyledForm = styled.form`
 
 const Field = styled.input`
   width: 100%;
-  background-color: ${PortfolioTheme.colors.secondaryBg};
-  border: 1px solid ${PortfolioTheme.colors.border};
+  background-color: ${portfolioTheme.colors.secondaryBg};
+  border: 1px solid ${portfolioTheme.colors.border};
   padding: 7px 15px;
 
   font-family: Poppins, sans-serif;
@@ -49,14 +49,14 @@ const Field = styled.input`
   font-weight: 400;
   letter-spacing: 0.6px;
   
-  color: ${PortfolioTheme.colors.font};
+  color: ${portfolioTheme.colors.font};
   
   &::placeholder {
-    color: ${PortfolioTheme.colors.placeholder};
+    color: ${portfolioTheme.colors.placeholder};
     text-transform: capitalize;
   }
   
   &:focus-visible {
-    outline: 1px solid ${PortfolioTheme.colors.placeholder};
+    outline: 1px solid ${portfolioTheme.colors.placeholder};
   }
 `

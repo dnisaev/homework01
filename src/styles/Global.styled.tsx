@@ -1,5 +1,5 @@
 import {createGlobalStyle} from "styled-components";
-import {PortfolioTheme} from "./portfolioTheme";
+import {portfolioTheme} from "./PortfolioTheme";
 
 export const GlobalStyle = createGlobalStyle`  
   *,
@@ -17,13 +17,13 @@ export const GlobalStyle = createGlobalStyle`
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: ${PortfolioTheme.colors.font};
+    color: ${portfolioTheme.colors.font};
     line-height: 1.2;
   }
   
   a {
     text-decoration: none;
-    color: ${PortfolioTheme.colors.font};
+    color: ${portfolioTheme.colors.font};
     cursor: pointer;
   }
   
@@ -35,7 +35,7 @@ export const GlobalStyle = createGlobalStyle`
     background-color: unset;
     border: none;
     cursor: pointer;
-    color: ${PortfolioTheme.colors.font};
+    color: ${portfolioTheme.colors.font};
   }
   
   // Для всех секций
@@ -45,12 +45,12 @@ export const GlobalStyle = createGlobalStyle`
   
   // Для нечетных секций
   section:nth-of-type(odd) {
-    background-color: ${PortfolioTheme.colors.primaryBg};
+    background-color: ${portfolioTheme.colors.primaryBg};
   }
   
   // Для четных секций
   section:nth-of-type(even) {
-    background-color: ${PortfolioTheme.colors.secondaryBg};
+    background-color: ${portfolioTheme.colors.secondaryBg};
   }
   
   h3 {

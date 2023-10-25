@@ -1,4 +1,4 @@
-export const PortfolioTheme = {
+export const portfolioTheme = {
 
     colors: {
         primaryBg: "#1F1F20",

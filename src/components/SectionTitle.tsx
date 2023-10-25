@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {PortfolioTheme} from "../styles/portfolioTheme";
+import {portfolioTheme} from "../styles/PortfolioTheme";
 
 export const SectionTitle = styled.h2`
   text-align: center;
@@ -16,7 +16,7 @@ export const SectionTitle = styled.h2`
     display: inline-block;
     height: 1px;
     width: 55px;
-    background-color: ${PortfolioTheme.colors.accent};
+    background-color: ${portfolioTheme.colors.accent};
     
     position: absolute;
     left: 50%;

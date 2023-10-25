@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {PortfolioTheme} from "../styles/portfolioTheme";
+import {portfolioTheme} from "../styles/PortfolioTheme";
 
 export const Button = styled.button`
   font-size: 14px;
@@ -23,7 +23,7 @@ export const Button = styled.button`
     display: inline-block;
     height: 10px;
     width: 50%;
-    background-color: ${PortfolioTheme.colors.accent};
+    background-color: ${portfolioTheme.colors.accent};
     position: absolute;
     bottom: 0;
     left: 50%;

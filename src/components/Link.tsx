@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {PortfolioTheme} from "../styles/portfolioTheme";
+import {portfolioTheme} from "../styles/PortfolioTheme";
 
 export const Link = styled.a`
   font-size: 14px;
@@ -25,7 +25,7 @@ export const Link = styled.a`
     bottom: 5px;
     left: 0;
     right: 0;
-    background-color: ${PortfolioTheme.colors.accent};
+    background-color: ${portfolioTheme.colors.accent};
     z-index: -1;    
   }
 `
