@@ -41,6 +41,10 @@ export const GlobalStyle = createGlobalStyle`
   // Для всех секций
   section {
     padding: 100px 0;
+    
+    @media ${portfolioTheme.media.mobile} {
+      padding: 80px 0;
+    }
   }
   
   // Для нечетных секций
