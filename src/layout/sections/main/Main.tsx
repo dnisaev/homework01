@@ -11,11 +11,11 @@ export const Main = () => {
         <StyledMain>
             <Container>
                 <FlexWrapper align={"center"} justify={"space-around"} wrap={"wrap"}>
-                    <div>
+                    <MainText>
                         <Greeting>Hi There</Greeting>
                         <Name>I am <span>Dmitriy Isaev</span></Name>
                         <MainTitle>A Front-end Developer.</MainTitle>
-                    </div>
+                    </MainText>
                     <PhotoWrapper>
                         <Photo src={photo} alt={""}/>
                     </PhotoWrapper>
@@ -34,7 +34,7 @@ const PhotoWrapper = styled.div`
   position: relative;
   z-index: 0;
   margin-top: 65px;
-  
+
   &::before {
     content: "";
     width: 360px;
@@ -102,4 +102,9 @@ const Name = styled.h2`
 const Greeting = styled.span`
   font-size: 14px;
   font-weight: 400;
+`
+const MainText = styled.div`
+  @media ${portfolioTheme.media.mobile} {
+    margin-top: 3%;
+  }
 `
