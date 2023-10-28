@@ -2,7 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 import {Icon} from "../icon/Icon";
 
-export const Logo = () => {
+export const Logo: React.FC = () => {
     return (
         <StyledLogo>
             <Icon iconId={"code"}/>
@@ -10,8 +10,4 @@ export const Logo = () => {
     );
 };
 
-const StyledLogo = styled.a`
-
-
-
-`
+const StyledLogo = styled.a``
