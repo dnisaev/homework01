@@ -2,7 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 import {Link} from "../../../../components/Link";
 
-export const TabMenu = (props: { menuItems: Array<string> }) => {
+export const TabMenu: React.FC<{ menuItems: Array<string> }> = (props: { menuItems: Array<string> }) => {
     return (
         <StyledTabMenu>
             <ul>

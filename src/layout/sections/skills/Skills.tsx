@@ -3,7 +3,7 @@ import {FlexWrapper} from "../../../components/FlexWrapper";
 import {SectionTitle} from "../../../components/SectionTitle";
 import {Skill} from "./skill/Skill";
 import {Container} from "../../../components/Container";
-import { S } from './Skills_Styles';
+import {S} from './Skills_Styles';
 
 const skillData = [
     {
@@ -48,7 +48,8 @@ export const Skills: React.FC = () => {
                         return <Skill
                             iconId={s.iconId} key={index}
                             title={s.title}
-                            description={s.description}/>
+                            description={s.description}
+                        />
                     })}
                 </FlexWrapper>
             </Container>
