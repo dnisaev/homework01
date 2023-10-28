@@ -28,7 +28,7 @@ const StyledTestimony = styled.section`
   background-color: lightsteelblue;
 
   ${IconWrapper} {
-    margin: 40px 0 72px;
+    margin: 28px 0 72px;
   }
 `
 
