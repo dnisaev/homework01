@@ -12,7 +12,6 @@ export const Main: React.FC = () => {
     };
 
     const [greeting, setGreeting] = useState(greetings.first);
-
     const changeGreeting = () => setGreeting(greetings.second);
     const changeGreetingBack = () => setGreeting(greetings.first);
     return (
