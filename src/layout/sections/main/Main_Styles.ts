@@ -18,6 +18,7 @@ const PhotoWrapper = styled.div`
     height: 470px;
     border: 5px solid ${portfolioTheme.colors.accent};
     z-index: -1;
+    margin-top: 45px;
 
     position: absolute;
     top: -24px;
@@ -31,9 +32,7 @@ const PhotoWrapper = styled.div`
     }
   }
 
-  @media ${portfolioTheme.media.mobile} {
-    margin-top: 65px;
-  }
+  
 `
 
 const Photo = styled.img`
@@ -41,6 +40,7 @@ const Photo = styled.img`
   height: 430px;
   object-fit: cover;
   margin-right: 20px;
+  margin-top: 45px;
 
   @media ${portfolioTheme.media.mobile} {
     width: 310px;
