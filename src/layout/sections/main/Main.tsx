@@ -35,7 +35,14 @@ export const Main: React.FC = () => {
                             />
                         </S.MainTitle>
                     </S.MainText>
-                    <Tilt>
+                    <Tilt
+                        className="parallax-effect-img"
+                        tiltMaxAngleX={40}
+                        tiltMaxAngleY={40}
+                        perspective={800}
+                        transitionSpeed={1500}
+                        scale={1.1}
+                        gyroscope={true}>
                         <S.PhotoWrapper>
                             <S.Photo onClick={changeGreeting} onDoubleClick={changeGreetingBack} src={photo} alt={""}/>
                         </S.PhotoWrapper>
