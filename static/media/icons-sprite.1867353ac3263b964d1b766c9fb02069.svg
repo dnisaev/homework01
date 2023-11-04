@@ -85,6 +85,11 @@
               fill="currentColor"/>
     </g>
 
+    <!-- arrow -->
+    <g id="arrowGoTop">
+        <path d="M6.80722 4.2806V15H9.19278V4.2806L14.3134 9.08118L16 7.5L8 0L0 7.5L1.6866 9.08118L6.80722 4.2806Z"
+              fill="white"/>
+    </g>
 
     <!--    quote-->
     <g id="quote">
