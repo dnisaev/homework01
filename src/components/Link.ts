@@ -27,6 +27,8 @@ export const Link = styled.a<{active?: boolean}>`
     right: 0;
     background-color: ${portfolioTheme.colors.accent};
     z-index: -1;
+    height: 0;
+    transition: ${portfolioTheme.animations.transition};
     
     ${props => props.active === true && css<{active?: boolean}>`
       height: 10px;

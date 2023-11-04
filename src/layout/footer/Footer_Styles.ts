@@ -27,10 +27,11 @@ const SocialLink = styled.a`
   border-radius: 50%;
   width: 35px;
   height: 35px;
+  
   display: flex;
   justify-content: center;
   align-items: center;
-
+  transition: ${portfolioTheme.animations.transition};
   color: ${portfolioTheme.colors.accent};
 
   &:hover {
