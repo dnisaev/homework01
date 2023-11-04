@@ -85,6 +85,9 @@ const Greeting = styled.span`
   font-weight: 400;
 `
 const MainText = styled.div`
+  p {
+    display: none;
+  }
   @media ${portfolioTheme.media.mobile} {
     margin-top: 3%;
   }
