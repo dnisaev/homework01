@@ -17,7 +17,7 @@ export const Main: React.FC = () => {
     const changeGreeting = () => setGreeting(greetings.second);
     const changeGreetingBack = () => setGreeting(greetings.first);
     return (
-        <S.Main>
+        <S.Main id={`home`}>
             <Container>
                 <FlexWrapper align={"center"} justify={"space-around"} wrap={"wrap"}>
                     <S.MainText>

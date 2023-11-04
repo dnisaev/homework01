@@ -7,7 +7,7 @@ import {FlexWrapper} from "../../../components/FlexWrapper";
 
 export const Slogan: React.FC = () => {
     return (
-        <StyledSlogan>
+        <StyledSlogan id={"slogan"}>
             <Container>
                 <FlexWrapper direction={"column"} align={"center"}>
                     <SectionTitle>I Am Available For Freelance</SectionTitle>
