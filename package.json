@@ -2,7 +2,7 @@
   "name": "portfolio-start",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dnisaev.github.io/homework01",
+  "homepage": "https://dnisaev.github.io/portfolio",
   "dependencies": {
     "@babel/core": "7.16.0",
     "@emailjs/browser": "^3.11.0",
