@@ -43,10 +43,10 @@
 }
 
 .alice-carousel__prev-btn {
-    left: -40px;
+    left: 0;
 }
 .alice-carousel__next-btn {
-    left: 500px;
+    right: 0;
 }
 
 .alice-carousel__prev-btn-item,
