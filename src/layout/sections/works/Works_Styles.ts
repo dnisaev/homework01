@@ -13,8 +13,8 @@ const Works = styled.section`
 
 const Work = styled.div`
   background-color: ${portfolioTheme.colors.secondaryBg};
-  width: 330px;
-  flex-grow: 1;
+  //width: 330px;
+  //flex-grow: 1;
 
   ${Link} {
     padding: 10px 0;
