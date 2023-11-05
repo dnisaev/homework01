@@ -5,6 +5,7 @@
   "homepage": "https://dnisaev.github.io/homework01",
   "dependencies": {
     "@babel/core": "7.16.0",
+    "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.1",
     "@pmmmwh/react-refresh-webpack-plugin": "0.5.3",
     "@svgr/webpack": "5.5.0",
