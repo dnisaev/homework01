@@ -10,7 +10,7 @@ export const Main: React.FC = () => {
 
     const greetings = {
         first: "Hi There",
-        second: "Hello my dear friend"
+        second: "Hello my dear friend",
     };
 
     const [greeting, setGreeting] = useState(greetings.first);
