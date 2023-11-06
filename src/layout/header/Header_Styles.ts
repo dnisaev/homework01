@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {portfolioTheme} from "../../styles/PortfolioTheme";
 
 const Header = styled.header`
   background-color: rgba(31, 31, 32, 0.9);
@@ -8,6 +9,10 @@ const Header = styled.header`
   left: 0;
   right: 0;
   z-index: 99999;
+  
+  @media ${portfolioTheme.media.mobile} {
+    background-color: transparent;
+  }
 `
 
 export const S = {
